@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Refactoring exercise for Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch ./index.js",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.dev.xero.com/gareth-cronin/refactionjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.15.3",
+    "nedb": "^1.8.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
